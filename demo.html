@@ -6,10 +6,8 @@
 </head>
 
 <body ng-controller="PreviewController">
-	<form>
-		<h1>Enter Markdown</h1>
-		<textarea rows="10" cols="100" ng-model="input"></textarea>
-	</form>
+	<h1>Enter Markdown</h1>
+	<textarea rows="10" cols="100" ng-model="input"></textarea>
 
 	<h1>Rendered Markdown</h1>
 		<div ng-bind-html="output | html"></div>
