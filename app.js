@@ -5,8 +5,6 @@ BlogApp.controller('PreviewController', function($scope) {
 		$scope.output = markdown.toHTML(val);
 	}, true);
 
-	$scope.show = false;
-
 	$scope.input = ""
 	$scope.output = ""
 });
